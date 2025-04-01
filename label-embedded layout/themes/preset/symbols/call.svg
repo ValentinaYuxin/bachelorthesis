@@ -1,0 +1,26 @@
+<svg class="clickable" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <clipPath id="left">
+      <rect x="0" y="0" width="25" height="100"/>
+    </clipPath>
+
+    <clipPath id="right">
+      <rect x="5" y="0" width="25" height="100"/>
+    </clipPath>
+  </defs>
+
+    <use href="themes/default/symbols/call_begin.svg#start" clip-path="url(#left)" class="cline hfill rfill stand"/>
+
+
+  <g id="middle" class="replace" >
+
+    <rect id="back" x="24" y="1" width="500" height="28"   class="cline hfill rfill trans"/>
+    <path id="up" d="M25,1 H500" class="cline hfill rfill stand" />
+    <path id="bottom" d="M25,29 H500" class="cline hfill rfill stand" />
+    <text id="label" class="label" style="fill:#000000;" x="26" y="20"></text>
+
+  </g>
+  
+  <use id="end" href="themes/default/symbols/call_end.svg#end" class="cline hfill rfill stand" clip-path="url(#right)"/>
+
+</svg>
