@@ -1,7 +1,0 @@
-<svg class="clickable" xmlns="http://www.w3.org/2000/svg">
-
-  <g id="start">
-   <rect  name="aaa" x="1" y="1" width="28" height="28" rx="4" />
-   <text transform="translate(15,21)" font-size="20px" font-style="normal" font-variant="normal" font-weight="bold" font-stretch="normal" text-align="center" line-height="125%" writing-mode="horizontal-tb" text-anchor="middle" color="var(--wfadaptor-base)" fill="var(--wfadaptor-base)" fill-opacity="1" stroke="none" font-family="Arial">s</text>
-   </g>
-</svg>
